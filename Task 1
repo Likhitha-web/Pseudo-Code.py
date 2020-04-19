@@ -1,0 +1,9 @@
+#Task_1
+x=int(input("enter a value : "))
+y=int(input("enter another value : "))
+try:
+    print(x/y)
+except ZeroDivisionError as e:
+    print("Error code: ", e)
+except ValueError as E:
+    print("Error code: ", E)
