@@ -1,0 +1,12 @@
+#Task_2
+
+x = int(input value)
+Try:
+	If x is positive and greater than zero:
+		Loop until x
+			z = (loop count) * (loop count)
+			Print z
+  Else:
+	  Print value is out of range
+Except to string handling
+	Print error code
